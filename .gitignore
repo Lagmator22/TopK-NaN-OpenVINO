@@ -1,0 +1,29 @@
+# Compiled binaries
+test_enhanced_topk
+ovasearch_integration
+benchmark_honest
+test_topk_nan
+test_topk_nan_simple
+test_with_ovasearch
+ovasearch_integration
+
+# Build artifacts
+*.o
+*.out
+*.exe
+*.dSYM/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+temp/
