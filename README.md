@@ -244,19 +244,18 @@ bool compare(float a, float b, NaNMode mode) {
 
 ## Contributing
 
-### Next Steps
+### Roadmap to OpenVINO v17::TopK Integration
+- [x] **Prototyping**: Build standalone POC demonstrating behavior differences (Current phase)
+- [ ] **Review**: Present POC to OpenVINO maintainers for feedback on NaN handling enum options
+- [ ] **Refine**: Incorporate any architectural review comments into the proposed `nan_mode` structure
+- [ ] **Test**: Integrate into OpenVINO repository and run full `smoke_TopK` test suite + JIT x64 validation
+- [ ] **Document**: Draft updated operator specifications (e.g., `top-k-17.rst`)
+- [ ] **Submit**: Create PR to the main OpenVINO repository introducing the new `v17::TopK`
 
-1. **Review**: Get feedback from OpenVINO maintainers
-2. **Refine**: Incorporate review comments
-3. **Test**: Run full OpenVINO test suite
-4. **Document**: Update operator specifications
-5. **Submit**: Create PR to main repository
-
-### Contact
-
+### Acknowledgements
 - **Author**: Lagmator22
-- **Reviewer**: @mitruska (OpenVINO)
-- **PR**: [#33633](https://github.com/openvinotoolkit/openvino/pull/33633) (To be created)
+- **Mentorship & Review**: [@mitruska](https://github.com/mitruska) & [@nshchego](https://github.com/nshchego) (OpenVINO)
+- **Originating PR**: [openvinotoolkit/openvino#33633](https://github.com/openvinotoolkit/openvino/pull/33633)
 
 ## License
 
