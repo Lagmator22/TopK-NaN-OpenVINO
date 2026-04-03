@@ -1,11 +1,15 @@
-# Compiled binaries
+# Compiled binaries (built locally from source)
+test_topk_v17
+benchmark_topk_v17
+demo_rag_pipeline
+
+# Old binaries from previous iteration
 test_enhanced_topk
 ovasearch_integration
 benchmark_honest
 test_topk_nan
 test_topk_nan_simple
 test_with_ovasearch
-ovasearch_integration
 
 # Build artifacts
 *.o
@@ -27,3 +31,5 @@ Thumbs.db
 # Temporary files
 *.tmp
 temp/
+__pycache__/
+*.pyc
